@@ -35,7 +35,12 @@ curl -d '{"rollno": "<rollno>"}' -H 'Content-Type: application/json' localhost:8
 
 ## Gallery
 
+### - CLI
+
 <img src="assets/cli.png">
-<img src="assets/browser1.png">
-<img src="assets/browser2.png">
-<img src="assets/browser3.png">
+
+### - GUI
+
+<img src="assets/browser1.PNG">
+<img src="assets/browser2.PNG">
+<img src="assets/browser3.PNG">
