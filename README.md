@@ -9,8 +9,10 @@ Dependencies:
 
 Endpoints:
 - '/' or '/index' or '/home' : Landing Page
-- '/coins' : Task Page
+- '/coins' : Task Endpoint
+- '/coins-form' : Additional endpoint for POST request via html form
 ```
+
 ## Installation
 
 ```
@@ -23,7 +25,12 @@ pip install -r requirements.txt
 
 ## Execution
 
+Head over to localhost:8080
 ```
 flask run -p 8080
+curl -d '{"rollno": <rollno>}' -H 'Content-Type: application/json' localhost:8080/coins
 ```
-And head over to localhost:8080
+
+----
+**NOTE**: If you want to give a POST request via rather an html form, head over to endpoint /coins-form on browser.
+----
