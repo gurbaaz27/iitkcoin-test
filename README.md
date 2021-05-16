@@ -1,6 +1,7 @@
 ## Specifications
 
-Language : python
+```
+Language : python3
 Framework: Flask
 Dependencies:
 - flask
@@ -9,7 +10,7 @@ Dependencies:
 Endpoints:
 - '/' or '/index' or '/home' : Landing Page
 - '/coins' : Task Page
-
+```
 ## Installation
 
 ```
@@ -25,3 +26,4 @@ pip install -r requirements.txt
 ```
 flask run -p 8080
 ```
+And head over to localhost:8080
