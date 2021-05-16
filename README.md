@@ -5,12 +5,12 @@ Language : python3
 Framework: Flask
 Dependencies:
 - flask
-- pydotenv
+- python-dotenv
 
 Endpoints:
 - '/' or '/index' or '/home' : Landing Page
 - '/coins' : Task Endpoint
-- '/coins-form' : Additional endpoint for POST request via html form
+- '/coins-form' : Additional endpoint created for POST request via html form
 ```
 
 ## Installation
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 Head over to localhost:8080
 ```
 flask run -p 8080
-curl -d '{"rollno": <rollno>}' -H 'Content-Type: application/json' localhost:8080/coins
+curl -d '{"rollno": "<rollno>"}' -H 'Content-Type: application/json' localhost:8080/coins
 ```
 
 ----
