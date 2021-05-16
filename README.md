@@ -31,6 +31,11 @@ flask run -p 8080
 curl -d '{"rollno": "<rollno>"}' -H 'Content-Type: application/json' localhost:8080/coins
 ```
 
-----
-**NOTE**: If you want to give a POST request via rather an html form, head over to endpoint /coins-form on browser.
-----
+> _**NOTE**_: If you want to give a POST request via rather an html form, head over to endpoint /coins-form on browser.
+
+## Gallery
+
+<img src="assets/cli.png">
+<img src="assets/browser1.png">
+<img src="assets/browser2.png">
+<img src="assets/browser3.png">
