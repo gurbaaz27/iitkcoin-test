@@ -1,3 +1,14 @@
+## Deployed
+
+Deployed at <https://iitk-coin-test.herokuapp.com/>.
+
+Enter in terminal
+```
+curl -d '{"rollno": "<rollno>"}' -H 'Content-Type: application/json' https://iitk-coin-test.herokuapp.com/coins
+```
+
+-----------
+
 ## Specifications
 
 ```
