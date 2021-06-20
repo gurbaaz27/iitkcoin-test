@@ -1,4 +1,6 @@
-## Deployed
+# IITK Coin test: Web-Server
+
+## Hosting
 
 Deployed at <https://iitk-coin-test.herokuapp.com/>.
 
